@@ -1,0 +1,106 @@
+/* Add New Task Styling */
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: crimson;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: green;
+}
+
+div.form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding:20px
+}
+
+/* Display Task Styling */
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #e29055;
+  }
+  
+  /* Task details: name, date, and description */
+  .task-details {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .task-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .task-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .task-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Buttons for edit and delete */
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-buttons .edit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .task-buttons .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-buttons .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .task-buttons .delete-button:hover {
+    background-color: #d32f2f;
+  }
+
+
+ 
