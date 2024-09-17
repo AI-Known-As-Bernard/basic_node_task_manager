@@ -1,3 +1,7 @@
+body{
+    background-color: cadetblue;
+}
+
 /* Add New Task Styling */
 input[type=text], select{
     width: 100%;
